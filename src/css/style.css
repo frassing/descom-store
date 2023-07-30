@@ -1,0 +1,226 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    background-image: linear-gradient(#f3dcd2, #cfe7f7);
+}
+
+section {
+    margin: 40px;
+}
+
+.titulo {
+    margin: 30px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+/* Header */
+.navbar-brand {
+    color: #f59b9b;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 1px  #7f8ee2;
+}
+
+.navbar-brand:hover {
+    color: #ee7498;
+}
+
+.carousel-inner .carousel-item img {
+    height: 550px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.carousel-inner .carousel-caption {
+    margin: auto;
+    top: 40%;
+    bottom: 40%;
+    left: 0;
+    right: 0;
+    height: fit-content;
+    width: 70%;
+}
+
+.carousel-item .carousel-caption h3 {
+    font-weight: bold;
+    color: #5f6468;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    background-color: #fcfcfcb0;
+    box-shadow: 1px -1px 15px #85858634;
+    padding: 50px;
+}
+
+.btn-carousel {
+    margin: auto;
+    position: absolute;
+    top: 81%;
+    left: 0;
+    right: 0;
+    width: fit-content;
+
+    text-align: center;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+    background-color: #fcfcfcb0;
+    box-shadow: 1px -1px 15px #85858634;
+    color: #5f6468;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.btn-carousel:hover {
+    background-color: #fcfcfc;
+}
+
+/* Produtos */
+#produtos .produtos-cards {
+    max-width: 80%;
+    margin: auto;
+}
+
+#produtos .card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+#produtos .card-title {
+    font-size: 16px;
+
+}
+
+#produtos .card-text {
+    font-weight: bold;
+}
+
+/* Sobre e Time */
+.about-team-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+#sobre .about-content {
+    padding: 15px;
+    width: fit-content;
+    text-align: center;
+    border-radius: 7px;
+}
+
+#sobre .about-content p {
+    max-width: 500px;
+    line-height: 30px;
+}
+
+#sobre .img-sobre {
+    width: 200px;
+}
+
+#time .membros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+#time .membros figure {
+    padding: 15px;
+    background: linear-gradient(#b9d3f1, #e3c5e6);
+    border-radius: 7px;
+}
+
+#time .membros figure:hover {
+    transform: scale(1.04);
+    box-shadow: 1px 1px 10px #1b243146;
+}
+
+#time .membros img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#time .membros {
+    color: #505457;
+}
+
+/* Footer */
+.rodape {
+    background-color: #b9d3f1;
+    margin-top: 80px;
+    color: #5f6468;
+}
+
+.rodape ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.rodape h4 {
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.rodape a {
+    color: #5f6468;
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    color: #c995ce;
+}
+
+.rodape section {
+    margin: 30px 0 10px;
+}
+
+.contato-creditos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#fale-conosco .redes ul {
+    display: flex;
+    gap: 12px;
+}
+
+.redes ul li {
+    font-size: 20px;
+}
+
+.creditos li{
+    font-size: 14px;
+}
+
+.creditos-cols {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.creditos a {
+    border-bottom: 1px solid #c995ce;
+}
+
+footer p {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 6px;
+    color: #a163a7;
+}
